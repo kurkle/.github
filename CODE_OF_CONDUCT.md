@@ -44,8 +44,6 @@ report is about:
 
 **https://github.com/contact/report-abuse**
 
-<!-- TODO: secondary contact — maintainer to add directly, see PR notes -->
-
 All complaints will be reviewed and investigated promptly and fairly, and the privacy
 and security of the reporter will be respected.
 
