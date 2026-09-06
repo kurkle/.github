@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+contact_links:
+  - name: General Chart.js question
+    url: https://github.com/chartjs/Chart.js/discussions
+    about: >
+      Questions about Chart.js core itself (not this plugin/chart type) belong in
+      Chart.js's own discussions, not here.
+  - name: Chart.js documentation
+    url: https://www.chartjs.org/docs/latest/
+    about: Chart.js's own documentation, for questions about core options and APIs.

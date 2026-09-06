@@ -1,0 +1,67 @@
+name: Bug report
+description: Report a reproducible problem with a chart type, plugin, or package.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. The single most common reason a report can't be
+        acted on is that it can't be reproduced. If this project has a documentation
+        site, its sample charts are **editable directly in the browser** — please open
+        the closest sample, edit it until it reproduces the problem, and paste the
+        resulting code below. This is the fastest path to a fix.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: >
+        A link to an edited sample, a link to an external reproduction (e.g. a
+        StackBlitz/CodePen), or a minimal code snippet that reproduces the problem.
+      placeholder: |
+        1. Open https://.../samples/... on the documentation site
+        2. Edit the config to ...
+        3. Paste the resulting code here
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Include any console errors.
+    validations:
+      required: true
+  - type: input
+    id: chartjs-version
+    attributes:
+      label: Chart.js version
+      placeholder: e.g. 4.4.3
+    validations:
+      required: true
+  - type: input
+    id: package-version
+    attributes:
+      label: This package's version
+      placeholder: e.g. 2.1.0
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and OS
+      placeholder: e.g. Chrome 128 on macOS 15
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Anything else that might help (screenshots, related issues, etc.)
+    validations:
+      required: false
