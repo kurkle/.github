@@ -82,11 +82,9 @@ The `pre-commit` hook runs, in order, whichever of these scripts a repository de
 lint → test → typecheck → build → docs
 ```
 
-**Important:** the hook checks out and runs against your working tree, not the staged
-diff. If you `git add -p` part of a file and commit only that part, the hook still
-validates the full working copy — it can pass locally on code that isn't actually what
-you're committing. Review `git diff --staged` yourself before committing partial
-changes.
+The hook is a fast local smoke test, not the gate — it's there to catch obvious
+problems before they leave your machine. The real gate is CI on the pull request,
+which checks the actual merge result.
 
 Commit messages are checked by the `commit-msg` hook against the same Angular-style
 prefixes listed above.
