@@ -4,13 +4,23 @@
 
 Please **do not open a public issue** for a security vulnerability.
 
-If this repository has GitHub's [private vulnerability
+Every repository in this account has GitHub's [private vulnerability
 reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability)
-enabled (check the "Security" tab), use that: it opens a private conversation with the
-maintainer without disclosing the issue publicly.
+enabled. To use it:
 
-If it isn't enabled for this particular repository yet, or you'd rather not use it,
-please reach out through the maintainer's GitHub profile instead.
+1. Go to the repository's **Security** tab.
+2. Click **Report a vulnerability** (top right of the Advisories section).
+3. Fill in the form and submit.
+
+This opens a private draft security advisory shared only between you and the
+maintainer — nothing is public until you and the maintainer agree to publish it. It
+also gives you a private thread to discuss the issue, lets the maintainer request a
+CVE if one is warranted, and credits you as the reporter once the advisory is
+published.
+
+This is the **only** channel for reporting a vulnerability in this account's
+repositories. There's no parallel email address for this — a second channel would
+only split reports across two places instead of keeping them in one.
 
 ## Response expectations
 

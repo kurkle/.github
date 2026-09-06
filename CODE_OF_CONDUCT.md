@@ -36,9 +36,18 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at <!-- TODO: contact method -->. All complaints will be reviewed and investigated promptly and fairly.
+This project is maintained by a single person, so a conduct report may concern the
+maintainer directly — a personal contact channel is a dead end in that case. Instances
+of abusive, harassing, or otherwise unacceptable behavior should therefore be reported
+primarily through **GitHub's own abuse reporting**, which works regardless of who the
+report is about:
 
-All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+**https://github.com/contact/report-abuse**
+
+<!-- TODO: secondary contact — maintainer to add directly, see PR notes -->
+
+All complaints will be reviewed and investigated promptly and fairly, and the privacy
+and security of the reporter will be respected.
 
 ## Enforcement Guidelines
 
